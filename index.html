@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main id="front-page">
+
+        <div id="background">
+            <img src="/image/pac-man.png" alt="pacman" class="pac-man-img">
+            <p class="pac-man-food">
+                <span>0</span>
+                <span>1</span>
+                <span>1</span>
+                <span>0</span>
+                <span>0</span>
+                <span>1</span>
+                <span>0</span>
+            </p>
+        </div>
+
+        <form action="/user-profile" id="login-form" method="post">
+
+
+
+            <div class="form-row avatar-row">
+                <div class="avatar-options">
+                    <img src="/avatars/ghosts-my-profile.gif" alt="avatar" class="avatar-options-default-icon">
+                    <div>
+                        <i>&#8595</i>
+                    </div>
+                </div>
+
+                <div class="avatar-selections">
+                    <div class="avatar-individual-selection" value="Avatar-1">
+                        <img src="/avatars/a-1.png" alt="avatar" class="avatar-individual-icon">
+                        <p class="avatar-description">Avatar-1</p>
+                    </div>
+
+                    <div class="avatar-individual-selection" value="Avatar-2">
+                        <img src="/avatars/a-2.png" alt="avatar" class="avatar-individual-icon">
+                        <p class="avatar-description">Avatar-2</p>
+                    </div>
+
+                    <div class="avatar-individual-selection" value="Avatar-3">
+                        <img src="/avatars/a-3.png" alt="avatar" class="avatar-individual-icon">
+                        <p class="avatar-description">Avatar-3</p>
+                    </div>
+
+                    <div class="avatar-individual-selection" value="Avatar-1">
+                        <img src="/avatars/a-1.png" alt="avatar" class="avatar-individual-icon">
+                        <p class="avatar-description">Avatar-1</p>
+                    </div>
+
+                    <div class="avatar-individual-selection" value="Avatar-2">
+                        <img src="/avatars/a-2.png" alt="avatar" class="avatar-individual-icon">
+                        <p class="avatar-description">Avatar-2</p>
+                    </div>
+
+                    <div class="avatar-individual-selection" value="Avatar-3">
+                        <img src="/avatars/a-3.png" alt="avatar" class="avatar-individual-icon">
+                        <p class="avatar-description">Avatar-3</p>
+                    </div>
+                </div>
+
+                <div class="user-info">
+                    <label for="username" class="form-label">Your name:</label>
+                    <input id="username" name="username" class="form-input" type="text">
+                </div>
+
+            </div>
+
+         
+
+            <div class="form-row submit-form">
+                <div id="submit-btn" class="submit-btn">Start</div>
+            </div>
+
+
+        </form>
+
+
+    </main>
+
+</body>
+
+</html>
